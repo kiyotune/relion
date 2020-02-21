@@ -354,7 +354,6 @@ find_package(PNG)
 if(PNG_FOUND)
 	add_definitions(-DHAVE_PNG)
 endif()
-find_package(JPEG)
 
 # ----------------------------------------------------------------------COPY SCRIPTS--
 
